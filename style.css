@@ -32,6 +32,11 @@ form {
     margin-bottom: 10px;
   }
 
+.button-field {
+    display: flex;
+    justify-content: space-between;
+}
+
 button {
     padding: 10px 15px;
     font-weight: bold;
