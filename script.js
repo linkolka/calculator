@@ -17,6 +17,6 @@ btn.onclick = function () {
     
     
     
-    document.getElementById('str').innerHTML="Результат: "+shelfCost;
+    document.getElementById('str').innerHTML=`Стоимость полки с крепежом: ${shelfCost} грн;
     }
     
