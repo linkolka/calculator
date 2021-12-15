@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Калькулятор нестандартной полки</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="visually-hidden">Калькуляторы</h1>
+        <section class="not-standart-shelf">
+            <h2>Калькулятор нестандартной полки</h2>
+            <form onsubmit="return false" name="calculator">
+                <p>
+                  <label>Ширина полки, мм <input type="text" name="width" id="width"></label>
+                </p>
+                <p>
+                  <label>Глубина полки, мм <input type="text" name="depth" id="depth"></label>
+                </p>
+                <p>
+                  <label>Усилитель, шт <input type="text" name="enchancer" id="enchancer"></label>
+                </p>
+                <button type="submit" id="btn">Посчитать</button>
+              </form>
+              <div id="str"></div>
+        </section>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
